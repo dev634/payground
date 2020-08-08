@@ -1,5 +1,5 @@
 function loading() {
-	const loader = document.getElementById("loader");
+	const loader = document.getElementById("loader-container");
 	setTimeout(() => {
 		loader.classList.add("is-hidden");
 	}, 400);
