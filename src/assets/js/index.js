@@ -5,4 +5,4 @@ function loading() {
 	}, 400);
 }
 
-window.addEventListener("load", loading);
+window.addEventListener("DOMContentLoaded", loading);
