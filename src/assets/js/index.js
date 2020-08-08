@@ -1,6 +1,6 @@
-function loading(e) {
+function loading() {
 	const loader = document.getElementById("loader");
-	console.log(loader);
+	loader.classList.add("is-hidden");
 }
 
-window.addEventListener("load", loading(e));
+window.addEventListener("load", loading);
