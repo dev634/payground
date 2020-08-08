@@ -27,6 +27,17 @@ a {
 		bottom 200ms ease-in-out 200ms, right 200ms ease-in-out 200ms;
 }
 
+.loader2 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #202020;
+	transition: opacity 400ms ease 200ms, visibility 200ms ease 200ms,
+		bottom 200ms ease-in-out 200ms, right 200ms ease-in-out 200ms;
+}
+
 main {
 	opacity: 0;
 	height: 90%;
