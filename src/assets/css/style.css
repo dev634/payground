@@ -1,0 +1,30 @@
+body {
+	background-color: #202020;
+}
+
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50px;
+	height: 50px;
+	border: 4px solid #dedede;
+	border-top: 4px solid rgb(199, 77, 255);
+	border-radius: 50%;
+	animation: spinning 1s linear infinite;
+}
+
+.is-hidden {
+	display: none;
+}
+
+@keyframes spinning {
+	from {
+		transform: rotateZ(0deg);
+	}
+
+	to {
+		transform: rotateZ(360deg);
+	}
+}
