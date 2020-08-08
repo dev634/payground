@@ -20,7 +20,7 @@ body {
 }
 .loader {
 	position: relative;
-	top: -10px;
+	top: -20px;
 	width: 50px;
 	height: 50px;
 	border: 4px solid #dedede;
