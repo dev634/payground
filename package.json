@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/dev634/payground/issues"
   },
-  "homepage": "https://github.com/dev634/payground#readme"
+  "homepage": "https://github.com/dev634/payground#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
