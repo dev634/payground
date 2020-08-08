@@ -6,11 +6,16 @@ function loading() {
 	switch (page) {
 		case "":
 			loader = document.getElementById("loader");
-			loader.classList.add("is-hidden");
+			setTimeout(function () {
+				loader.classList.add("is-hidden");
+			}, 100);
+
 			break;
 		case "index.html":
 			loader = document.getElementById("loader");
-			loader.classList.add("is-hidden");
+			setTimeout(function () {
+				loader.classList.add("is-hidden");
+			}, 100);
 			break;
 		case "page-2.html":
 			loader = document.getElementById("loader");
