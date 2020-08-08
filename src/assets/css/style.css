@@ -29,6 +29,25 @@ body {
 	animation: spinning 1s linear infinite;
 }
 
+main {
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	animation: fadeOut 1s 1 0.4s forwards;
+}
+
+main h2 {
+	text-align: center;
+	color: #dedede;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
 .is-hidden {
 	display: none;
 }
@@ -40,5 +59,15 @@ body {
 
 	to {
 		transform: rotateZ(360deg);
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 100%;
 	}
 }
