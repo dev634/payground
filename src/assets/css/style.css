@@ -24,7 +24,7 @@ a {
 	bottom: 0;
 	background-color: #202020;
 	transition: opacity 400ms ease 200ms, visibility 200ms ease 200ms,
-		bottom 200ms ease-in-out 200ms;
+		bottom 200ms ease-in-out 200ms, right 200ms ease-in-out 200ms;
 }
 
 main {
@@ -49,6 +49,12 @@ main h2 {
 
 .is-hidden {
 	bottom: 100%;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.is-hidden-left {
+	right: 100%;
 	opacity: 0;
 	visibility: hidden;
 }
