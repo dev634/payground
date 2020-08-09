@@ -18,8 +18,11 @@ function loading() {
 			}, 100);
 			break;
 		case "page-2.html":
-			loader = document.getElementById("loader");
-			loader.classList.add("is-hidden-left");
+			const loader2 = document.getElementById("loader2");
+			setTimeout(function () {
+				loader2.classList.add("is-hidden-left");
+			}, 100);
+
 			break;
 		default:
 			alert("something wrong ....");

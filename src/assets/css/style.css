@@ -16,17 +16,7 @@ a {
 	text-decoration: none;
 }
 
-.loader {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: #202020;
-	transition: opacity 400ms ease 200ms, visibility 200ms ease 200ms,
-		bottom 200ms ease-in-out 200ms, right 200ms ease-in-out 200ms;
-}
-
+.loader,
 .loader2 {
 	position: fixed;
 	top: 0;
@@ -42,6 +32,7 @@ main {
 	opacity: 0;
 	height: 90%;
 	width: 90%;
+	-webkit-animation: fadeOut 1s 1 800ms forwards;
 	animation: fadeOut 1s 1 800ms forwards;
 }
 
@@ -67,6 +58,16 @@ main h2 {
 	right: 100%;
 	opacity: 0;
 	visibility: hidden;
+}
+
+@-webkit-keyframes fadeOut {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 100%;
+	}
 }
 
 @keyframes fadeOut {
